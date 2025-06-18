@@ -23,7 +23,7 @@ library(ggplot2)
 
 #Boxplot between Price and Cut
 ggplot(data = diamonds, aes(x = cut, y = price)) +
-  geom_boxplot(fill = "magenta", color = "black") +
+  geom_boxplot(fill = "limegreen", color = "black") +
   labs(
     title = "Diamond Price by Cut Quality",
     x = "Cut Quality",
