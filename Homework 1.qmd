@@ -30,6 +30,8 @@ ggplot(data = diamonds, aes(x = cut, y = price)) +
     y = "Price (USD)"
   ) +
   theme_minimal()
+
+#Added comments for Git commit
 ```
 
 This boxplot shows how diamond prices vary by cut quality using data from the ggplot2::diamonds dataset. The y-axis shows the price in USD, and the x-axis shows the five cut quality levels: Fair, Good, Very Good, Premium, and Ideal. The interquartile range is summarized by each box; outliers are shown by points beyond the whiskers, while the median is shown by a line. Ideal cuts, although of the finest quality, have somewhat lower median prices than Premium cuts, which have the highest median values. The reason for this could be that ideal cuts are usually less expensive because they have less carats. Many high-priced outliers and the largest price spread are seen in fair cuts. All things considered, it would appear that although cut influences pricing, other elements such as carat, weight and clarity are also important.
